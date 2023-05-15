@@ -1,0 +1,70 @@
+.cName {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.about-img {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.Service-img {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.contact-img {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.main-text h1 {
+  font-size: 3rem;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-text h2 {
+  color: #fff;
+  padding: 0.5rem 0 2rem 0;
+}
+.main-text .show {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  color: black;
+}
+@media screen and (max-width: 555px) {
+  .main-text h2 {
+    color: #fff;
+    padding: 10px 20px;
+  }
+}
+
+.main-text .show {
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+.form {
+  display: flex;
+}
